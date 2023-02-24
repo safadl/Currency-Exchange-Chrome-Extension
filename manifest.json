@@ -1,0 +1,16 @@
+{
+  "name": "Exchange Rates",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Extension to convert currencies",
+  "action": {
+    "default_icon": "exchange_icon.png",
+    "default_popup": "index.html"
+  },
+  "web_accessible_resources": [
+    {
+      "matches": ["<all_urls>"],
+      "resources": ["exchange_icon.png"]
+    }
+  ]
+}
